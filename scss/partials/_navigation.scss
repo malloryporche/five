@@ -3,4 +3,14 @@ nav {
 		width: 140px;
 		height: 60px;
 	}
+	a.nav-link {
+		color: white !important;
+		font-weight: 800;
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px;
+	}
+	li.nav-item {
+		padding: 0 10px;
+	}
 }

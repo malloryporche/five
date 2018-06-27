@@ -1,5 +1,8 @@
 /* Header styling */
 header.container-fluid {
+	position: relative;
+	top: -86px;
+	padding: 100px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -9,4 +12,15 @@ header.container-fluid {
 	img.vendor-svg {
 		width: 30px;
 	}
+	background: 
+		linear-gradient(
+			225deg,
+			rgba(122,57,219,0.95),
+			rgba(96,72,255,0.95)
+		),
+		url('../img/shapes/shape-6.svg');
+	background-size: 120%;
+	background-attachment: fixed;
+	background-position: 23% 10%;
 }
+
