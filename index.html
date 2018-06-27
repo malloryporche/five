@@ -250,7 +250,35 @@
  	</article>
  </section>
 
- section.container-fluid>div.row>div.container>div.row>
+ <section class="container-fluid">
+ 	<div class="row">
+ 		<div class="container">
+ 			<div class="row">
+ 				<article class="col-md-6">
+ 					<h6>Contact Us</h6>
+ 					<h1>We'd like to hear from you</h1>
+ 					<p>Don't hesitate to get in contact with us no matter your request.  We are here to help you.</p>
+ 					<address>123 Street, City, Country<br>(123) 456-7890</address>
+ 					<email>support@malloryburke.com</email>
+ 				</article>
+ 				<article class="col-md-6" id="contactForm">
+ 					<form action="POST">
+ 						<label for="emailAddress">Email address</label>
+ 						<input type="email" id="emailAddress" placeholder="Please enter your email" required>
+ 						<p>We'll never share your information with anyone else</p>
+ 						<label for="subject">Subject</label>
+ 						<input type="text" id="subject" placeholder="Enter message subject">
+ 						<label for="message"></label>
+ 						<textarea name="" id="message" cols="80" rows="60" placeholder="How can we help you?"></textarea>
+ 						<button type="Submit">Send message</button>
+ 					</form>
+ 				</article>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+
+ 
 
 <!-- jQuery, jQueryUI, BootstrapJS CDNs -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
