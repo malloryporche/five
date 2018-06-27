@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,OAAI,CACH,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,IAAI,CCFd,sBAAuB,CACtB,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,SAAS,CAClB,OAAO,CAAE,QAAQ,CACjB,OAAO,CAAE,OAAO,CAChB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,qCAAe,CACd,KAAK,CAAE,IAAI",
+"sources": ["../scss/partials/_navigation.scss","../scss/partials/_sections.scss"],
+"names": [],
+"file": "main.css"
+}

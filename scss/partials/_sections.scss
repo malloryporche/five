@@ -1,0 +1,12 @@
+/* Header styling */
+header.container-fluid {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	img.vendor-svg {
+		width: 30px;
+	}
+}
