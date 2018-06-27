@@ -19,8 +19,25 @@ header.container-fluid {
 			rgba(96,72,255,0.95)
 		),
 		url('../img/shapes/shape-6.svg');
-	background-size: 120%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: 23% 10%;
 }
 
+.phone {
+	background: #fff;
+    border: 1px solid #edf4f8;
+    margin: 0 auto;
+    position: relative;
+    max-width: 255px;
+    border-radius: 36px;
+    padding: 55px 0;
+    -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgba(66,77,86,.5), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgba(0,0,0,.5);
+    box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgba(66,77,86,.5), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgba(0,0,0,.5);
+}
+#screen-preview {
+	img {
+		height: auto;
+		max-width: 90%;
+	}
+}
